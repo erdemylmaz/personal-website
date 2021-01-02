@@ -1,0 +1,176 @@
+:root {
+  --red: #f8333c;
+  --background: #f7f7f2;
+  --foreground: #46494c;
+
+  --border-radius: 70px;
+  --box-shadow: 8px 8px 13px #cbcbc6, -8px -8px 13px #ffffff;
+  --dark-box-shadow: 5px 5px 13px #3f3f3f, -3px -3px 8px #3f3f3f;
+}
+body {
+  letter-spacing: 0.25px;
+  line-height: 2rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: rgb(2, 116, 201);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+}
+#content {
+  margin-top: 12px;
+}
+header {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  line-height: 5rem;
+}
+header * {
+  display: inline;
+  margin-top: 0px;
+}
+li {
+  list-style-type: none;
+  margin-right: 36px;
+}
+li:last-child {
+  margin-right: 0px;
+}
+ul {
+  position: absolute;
+  right: 5%;
+}
+a {
+  color: white;
+  text-decoration: none;
+  transition: 250ms;
+}
+a:hover {
+  color: #03a9f4;
+  transition: 250ms;
+}
+section {
+  width: 100%;
+  height: 320px;
+  margin: 12px auto;
+  background-image: url(../images/bg.png);
+}
+hr {
+  border: none;
+  background-color: white;
+}
+img {
+  width: 250px;
+  height: 250px;
+}
+#card {
+  transition: 750ms;
+  width: 250px;
+  height: 320px;
+  border: 0.001em solid white;
+  float: left;
+  line-height: 0.5rem;
+  box-shadow: 8px 8px 10px #03a9f4, -8px -8px 10px #03a9f4;
+}
+#card:hover {
+  transform: scale(1.2);
+  transition: 750ms;
+}
+h1,
+h5 {
+  margin-left: 12px;
+}
+#welcome .text {
+  font-weight: normal;
+  font-size: larger;
+  margin-left: 100px;
+}
+#rightSide span {
+  line-height: 5rem;
+}
+#rightSide {
+  margin-top: 50px;
+  font-size: 2rem;
+}
+#nothing {
+  height: 75px;
+}
+#welcome {
+  backdrop-filter: blur(5px);
+
+  margin: auto;
+  width: 80%;
+  height: 320px;
+}
+.lang {
+  color: white;
+}
+.lang:hover {
+  color: black;
+}
+#tr {
+  margin-right: 8px;
+  color: rgb(216, 167, 77);
+}
+.txt-rotate {
+  margin-left: 100px;
+}
+#eng {
+  margin-right: 8px;
+}
+@media only screen and (max-width: 600px) {
+  #name {
+    font-size: 6px;
+  }
+  li {
+    font-size: 6px;
+    margin-right: 2px;
+  }
+  #tr {
+    margin-right: 4px;
+  }
+  #eng {
+    margin-right: 4px;
+  }
+  .lang {
+    font-size: 6px;
+  }
+  #section {
+    width: 100%;
+    clear: both;
+  }
+  #welcome .text {
+    margin-left: 0px;
+    font-size: 14px;
+  }
+  .txt-rotate {
+    margin-left: 0px;
+  }
+  #card:hover {
+    transform: scale(1);
+  }
+  #welcome {
+    width: 250px;
+  }
+}
+
+#lightMode:hover,
+#darkMode:hover {
+  cursor: pointer;
+}
+#lightMode,
+#darkMode {
+  margin-right: 8px;
+}
+#card img {
+  width: 250px;
+  height: 250px;
+}
+img {
+  width: 0px;
+  height: 0px;
+}
